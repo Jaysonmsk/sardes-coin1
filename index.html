@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sardes Coin - Advanced Trading Simulation. Experience the future of blockchain with a touch of ancient history.">
+    <title>Sardes Coin - Trading Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/Sardes_Coin_Logo.png" alt="Sardes Coin Logo" class="logo">
+        <h1>Sardes Coin</h1>
+        <h2>Trading Simulation Platform</h2>
+        <a href="whitepaper.pdf" class="cta">Download Whitepaper</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#trading-sim">Trading Simulator</a></li>
+            <li><a href="#stats">Live Stats</a></li>
+            <li><a href="#social">Social Media</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to Sardes Coin</h1>
+            <p>The Future of Blockchain meets Ancient Lydia's Heritage</p>
+        </section>
+
+        <section id="roadmap">
+            <h2>Roadmap</h2>
+            <div class="timeline">
+                <div data-phase="1"><strong>Phase 1:</strong> Research & Planning</div>
+                <div data-phase="2"><strong>Phase 2:</strong> Development</div>
+                <div data-phase="3"><strong>Phase 3:</strong> Public Sale</div>
+                <div data-phase="4"><strong>Phase 4:</strong> Exchange Listings</div>
+                <div data-phase="5"><strong>Phase 5:</strong> Future Integrations</div>
+            </div>
+        </section>
+
+        <section id="trading-sim">
+            <h2>Trading Simulator</h2>
+            <div id="simulator">
+                <p><strong>Starting Balance:</strong> <span id="usd-balance">1000</span> USD | <span id="srd-balance">0</span> SRD</p>
+                <label for="trade-amount">Amount (USD):</label>
+                <input type="number" id="trade-amount" placeholder="Enter amount...">
+                <button id="buy-btn">Buy SRD</button>
+                <button id="sell-btn">Sell SRD</button>
+                <p><strong>Current SRD Price:</strong> <span id="srd-price">0.50</span> USD</p>
+            </div>
+        </section>
+
+        <section id="stats">
+            <h2>Live Statistics</h2>
+            <canvas id="priceChart" width="400" height="200"></canvas>
+        </section>
+
+        <section id="social">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://x.com/SardesCoin" target="_blank">X</a></li>
+                <li><a href="https://www.reddit.com/r/SardesCoin" target="_blank">Reddit</a></li>
+                <li><a href="https://t.me/SardesCoinCommunity" target="_blank">Telegram</a></li>
+                <li><a href="https://discord.gg/SardesCoinOfficial" target="_blank">Discord</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sardes Coin. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
